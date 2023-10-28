@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    width: 132px;
+    height: 132px;
+    background-image: url(../img/video-console.png);
+    background-size: 100%;
+    text-indent: -99999px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+header nav{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+header ul{
+    margin-top: 50px;
+    width: 300px;
+}
+
+header ul a{
+    padding: 5px 10px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+header .div{
+    width: 198px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+header .icon{
+    width: 34px;
+    height: 40px;
+    background-image: url(../img/profile-user.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header .sign{
+    width: 147px;
+    height: 40px;
+    background-color: rgba(0, 55, 252, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px
+}
+
+header .sign a{
+    color: white;
+    font-size: 16px;;
+    text-transform: uppercase;
+}
+
+
+
+/* ---------index html------------ */
+
+.owl-carousel{
+    margin-top: 100px;
+    position: relative;
+}
+
+main h2{
+    margin-top: 56px;
+    margin-left: 174px;
+}
+
+main .discount{
+    width: 1184px;
+    height: 452px;
+    margin: 76px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount article{
+    width: 272px;
+    height: 450px;
+    position: relative;
+    border: solid 2px #000000;
+}
+
+.discount article .sale{
+    background-image: url(../img/sale.png);
+    width: 120px;
+    height: 80px;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.discount article .cart{
+    width: 46px;
+    height: 44px;
+    position: absolute;
+    bottom: 16px;
+    left: 146px;
+    background-image: url(../img/shopping-cart\ \(1\).png);
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.discount article .name{
+    width: 222px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.discount article .cod{
+    width: 204px;
+    height: 204px;
+    background-image: url(../img/discount/COD.png);
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.discount article .price{
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
+.discount article .button{
+    width: 108px;
+    height: 46px;
+    display: flex;
+    margin-left: 32px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: rgba(240, 38, 38, 1);
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(35, 35, 35);
+}
+
+
+
+.discount .cart:hover{
+    background-image: url(../img/cart2.png);
+}
+/* -----------Products.html-------- */
+
+.clssify{
+    margin-top: 138px;
+    margin-left: 45%;
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+.console{
+    width: 1184px;
+    height: 452px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.console article{
+    width: 272px;
+    height: 450px;
+    position: relative;
+    border: solid 2px #000000;
+    border-radius: 20px;
+}
+
+
+.console article .cart{
+    width: 46px;
+    height: 44px;
+    position: absolute;
+    bottom: 40px;
+    left: 146px;
+    background-image: url(../img/shopping-cart\ \(1\).png);
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.console article .name{
+    width: 222px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.console article .play{
+    width: 204px;
+    height: 204px;
+    background-image: url(../img/console/PlayStation.png);
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.console article .price{
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.console article .button{
+    width: 108px;
+    height: 46px;
+    display: flex;
+    margin-left: 32px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: rgba(240, 38, 38, 1);
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(35, 35, 35);
+}
+
+.console article .xbox{
+    width: 204px;
+    height: 204px;
+    background-image: url(../img/console/Xbox.png);
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.console article .nintendo{
+    width: 204px;
+    height: 204px;
+    background-image: url(../img/console/Switch.png);
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.console article .retro{
+    width: 204px;
+    height: 204px;
+    background-image: url(../img/console/Retro.png);
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+
+.games{
+    width: 1184px;
+    height: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.games article{
+    width: 272px;
+    height: 440px;
+    position: relative;
+    border: solid 2px #000000;
+    border-radius: 20px;
+}
+
+
+.games article .cart{
+    width: 46px;
+    height: 44px;
+    position: absolute;
+    bottom: 40px;
+    left: 146px;
+    background-image: url(../img/shopping-cart\ \(1\).png);
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.games article .name{
+    width: 222px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.games article .requiem{
+    width: 204px;
+    height: 204px;
+    background-image: url(../img/Games/PlagueTale\ Requiem.png);
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.games article .price{
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.games article .button{
+    width: 108px;
+    height: 46px;
+    display: flex;
+    margin-left: 32px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: rgba(240, 38, 38, 1);
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(35, 35, 35);
+}
+
+
+
+/* -------------Contacts Html----------- */
+
+.parent{
+    width: 1100px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about{
+    width: 500px;
+    height: 200px;
+}
+
+.about h2{
+    margin-bottom: 20px;
+}
+
+.goals{
+    width: 500px;
+    height: 200px;
+}
+
+.goals h2{
+    margin-bottom: 20px;
+}
+
+
+.parent textarea{
+    background-color: #6d6a6a;
+    color: white;
+}
+
+textarea{
+    width: 500px;
+    background-color: #6d6a6a;
+    margin-left: 30%;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+textarea::placeholder{
+    color: #ffffff;
+}
+
+.submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 44%;
+    background-color: aqua;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+/* ------------signin.html------------- */
+
+.signIn{
+    width: 300px;
+    margin: 100px auto;
+}
+
+.signIn input{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signIn p , .signup{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    background-color: #6d6a6a;
+    cursor: pointer;
+    color: white;
+}
+
+.signIn p a{
+    color: white;
+}
+
+/* ---------signup.html--------- */
+
+.wrong{
+    width: 150px;
+    margin: 20px auto;
+    display: none;
+}
+
+.wrong p{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+.acolor a{
+    color: #000000;
+    padding: 5px 10px;
+}
+
+
+
+/*------------------- buy.hmtl------------ */
+
+.buyName{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.buyslider{
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+
+.desc{
+    width: 400px;
+    margin: 40px auto;
+}
+
+
+.description{
+    margin-top: 20px;
+}
+
+.description .button{
+    width: 108px;
+    height: 46px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 32px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: rgba(240, 38, 38, 1);
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    font-weight: 900;
+    border-bottom: 2px solid rgb(35, 35, 35);
+}
+
+
+
+
+.product{
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+
+}
+
+.console .cart:hover{
+    background-image: url(../img/cart2.png);
+}
+
+.games .cart:hover{
+    background-image: url(../img/cart2.png);
+}
+
+
+
+/* -------------- Responsive ------- */
+
+
+/* ipad mini */
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+
+    h1{
+        width: 100px;
+        height: 100px;
+    }
+
+    header ul a{
+        padding: 5px 10px;
+        color: black;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .div{
+        max-width: 120px;
+        margin-right: 50px;
+    }
+
+    
+
+    header .sign {
+        width: 80px;
+        height: 60px;
+        background-color: rgba(0, 55, 252, 1);
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    main h2{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    main .discount {
+        width: 260px;
+        height: 1000px;
+        margin: unset;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+
+    .clssify {
+        margin-top: 138px;
+        margin-left: auto;
+        margin-bottom: 60px;
+    }
+
+
+
+    main .console{
+        width: 260px;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        margin-bottom: 100px;
+    }
+
+    .pclass{
+        margin-top: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    main .games{
+        width: 520px;
+        height: 3560px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        padding: 40px;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* hoooverssssss */
+
+.discount article:hover, .console article:hover,
+.games article:hover{
+    border-radius: 20px;
+    background-color: #6d6a6a;
+    cursor: pointer;
+}   
+
+.discount article:hover .sale{
+    display: block;
+}
+
+.discount article:hover .button a,.console article:hover .button a, .games article:hover .button a{
+    color: white;
+}
+
+.discount article:hover  .price,.console article:hover  .price, .games article:hover .price{
+    color: #ffffff;
+}
+/* s20 ultra */
+
+
+@media screen and (max-width:412px) {
+    header{
+        width: 100%;
+    }
+
+    h1{
+        width: 60px;
+        height: 60px;
+    }
+
+    header ul{
+        width: 200px;
+        justify-content: center;
+    }
+
+    .owl-carousel{
+        width: 100%;
+    }
+
+    .div{
+        margin-top: 150px;
+
+    }
+
+    .console{
+        width: 212px;
+    }
+
+    main .games{
+        width: 212px;
+        height: 3560px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        padding: 40px;
+        margin-bottom: 40px;
+    }
+}
